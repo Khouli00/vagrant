@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # unzip to 
 
 cible="/home/vagrant/.vim/bundle/vim-grammarous/misc"
