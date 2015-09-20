@@ -77,6 +77,12 @@ Vagrant.configure(2) do |config|
 	apt-get install dos2unix -y
 	apt-get install unzip -y
 	apt-get install exuberant-ctags -y
+	apt-get install python-pip python-dev build-essential
+	apt-get install python-logilab-common
+	pip install pytest
+	pip install pyinstaller
+	pip install PyCrypto
+	
    SHELL
 
 end
