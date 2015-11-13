@@ -48,7 +48,7 @@ Vagrant.configure(2) do |config|
   #   vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-  vb.memory = "512"
+  vb.memory = "1024"
   end
   #
   # View the documentation for the provider you are using for more
@@ -77,11 +77,16 @@ Vagrant.configure(2) do |config|
 	apt-get install dos2unix -y
 	apt-get install unzip -y
 	apt-get install exuberant-ctags -y
-	apt-get install python-pip python-dev build-essential
-	apt-get install python-logilab-common
-	pip install pytest
-	pip install pyinstaller
-	pip install PyCrypto
+	apt-get install python-pip -y
+	apt-get install python-dev -y
+	apt-get install build-essential -y
+	apt-get install python-logilab-common -y
+	apt-get install zlib1g-dev -y 
+	
+	yes | pip install pytest 
+	yes | pip install pyinstaller 
+	yes | pip install PyCrypto 
+	yes | pip install virtualenv 
 	
    SHELL
 
