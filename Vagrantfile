@@ -70,8 +70,6 @@ Vagrant.configure(2) do |config|
 	apt-get update
 	apt-get install build-essential -y
     apt-get install git -y
-	apt-get install ruby -y
-	gem install asciidoctor -y
 	apt-get install vim-gtk -y
 	apt-get install encfs -y
 	apt-get install dos2unix -y
@@ -82,12 +80,7 @@ Vagrant.configure(2) do |config|
 	apt-get install build-essential -y
 	apt-get install python-logilab-common -y
 	apt-get install zlib1g-dev -y 
-	
-	yes | pip install pytest 
-	yes | pip install pyinstaller 
-	yes | pip install PyCrypto 
-	yes | pip install virtualenv 
-	
+
    SHELL
 
 end
