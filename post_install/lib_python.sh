@@ -11,6 +11,7 @@ yes | pip install lxml
 yes | pip install beautifulsoup4
 yes | pip install networkx
 yes | pip install requests
+yes | pip install netaddr
 #yes | pip install numpy
 #matplotlib dependencies
 sudo apt-get build-dep python-matplotlib -y
@@ -19,3 +20,4 @@ yes | pip install seaborn
 #pandas install is long and need sudo
 #yes | pip install pandas
 sudo apt-get install python-pandas -y
+yes | pip install py-radix
