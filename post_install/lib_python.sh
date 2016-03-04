@@ -24,3 +24,5 @@ yes | pip install seaborn
 #yes | pip install pandas
 sudo apt-get install python-pandas -y
 yes | pip install py-radix
+#to fix some sslv3 issue with requests
+yes | pip2.7 install -U pyopenssl==0.13.1 pyasn1 ndg-httpsclient
