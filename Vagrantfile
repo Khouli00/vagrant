@@ -79,7 +79,8 @@ Vagrant.configure(2) do |config|
 	apt-get install python-dev -y
 	apt-get install build-essential -y
 	apt-get install python-logilab-common -y
-	apt-get install zlib1g-dev -y 
+	apt-get install zlib1g-dev -y
+	apt-get install build-essential cmake -y
 
    SHELL
 
