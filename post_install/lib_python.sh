@@ -1,4 +1,5 @@
-﻿
+#ipython ext
+#yes| pip install ipython-sql
 #ssl
 sudo apt-get install python-dev libssl-dev libffi-dev
 sudo pip2.7 install -U pyopenssl==0.13.1 pyasn1 ndg-httpsclient
