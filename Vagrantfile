@@ -69,7 +69,7 @@ Vagrant.configure(2) do |config|
    config.vm.provision "shell", inline: <<-SHELL
 	apt-get update
 	apt-get install build-essential -y
-    apt-get install git -y
+    	apt-get install git -y
 	apt-get install vim-gtk -y
 	apt-get install encfs -y
 	apt-get install dos2unix -y
