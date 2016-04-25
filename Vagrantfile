@@ -71,7 +71,7 @@ Vagrant.configure(2) do |config|
 	apt-get install build-essential -y
     	apt-get install git -y
 	apt-get install vim-gtk -y
-	apt-get install encfs -y
+        #apt-get install encfs -y
 	apt-get install dos2unix -y
 	apt-get install unzip -y
 	apt-get install exuberant-ctags -y
