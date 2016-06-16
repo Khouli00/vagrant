@@ -1,3 +1,6 @@
+#dep phantom
+apt-get install libfreetype6 libfreetype6-dev
+apt-get install libfontconfig1 libfontconfig1-dev
 #install phantomjs 2.1
 wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
 tar xjvf phantomjs-2.1.1-linux-x86_64.tar.bz2
