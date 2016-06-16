@@ -1,3 +1,4 @@
+#https://gist.github.com/julionc/7476620
 #dep phantom
 apt-get install libfreetype6 libfreetype6-dev
 apt-get install libfontconfig1 libfontconfig1-dev
