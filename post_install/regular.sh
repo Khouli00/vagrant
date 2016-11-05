@@ -4,6 +4,9 @@
 #interactive = sudo dpkg-reconfigure tzdata
 timedatectl set-timezone Europe/Paris
 
+#nice color
+git clone https://github.com/Khouli00/color-theme-molokai ~
+
 #nice folder struct
 apt-get install tree
 
