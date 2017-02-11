@@ -24,6 +24,3 @@ vim -c VundleInstall -c quitall
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 
-cp .ctags ~/
-
-
