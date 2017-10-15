@@ -14,6 +14,9 @@ git config --global user.name "Khouli"
 git config --global user.email Khouli@VMdefault.com
 
 
+#pyenv
+curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
+
 #vim
 git clone https://github.com/Khouli00/vim ~/.vim	
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
