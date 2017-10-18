@@ -4,7 +4,9 @@ apt-get install build-essential -y
 apt-get install cmake -y
 apt-get install python-dev python3-dev
 apt-get install python-logilab-common -y
-apt-get install zlib1g-dev -y
+apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev
 #utils
 apt-get install git -y
 apt-get install vim-gtk -y
