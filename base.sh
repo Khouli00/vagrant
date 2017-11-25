@@ -9,7 +9,7 @@ libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev
 #utils
 apt-get install git -y
-apt-get install vim-gtk -y
+apt-get install vim-nox -y
 apt-get install dos2unix -y
 apt-get install unzip -y
 apt-get install exuberant-ctags -y
