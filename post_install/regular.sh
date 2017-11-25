@@ -23,8 +23,6 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim -c VundleInstall -c quitall	
 
 #youcompletme plugin
-sudo apt-get install build-essential cmake -y
-sudo apt-get install python-dev -y
 cd ~/.vim/bundle/YouCompleteMe
-./install.py
+python3 install.py
 
