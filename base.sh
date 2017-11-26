@@ -3,6 +3,7 @@ apt-get update
 apt-get install build-essential -y
 apt-get install cmake -y
 apt-get install python-dev python3-dev
+apt-get install python3-pip -y
 apt-get install python-logilab-common -y
 apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
